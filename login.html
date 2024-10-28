@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styless.css">
+    <link rel ="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="diy.jpg" alt="Logo" class="logo" onclick="goHome()" style="width: 50px; height: auto;">
+            <span>Craftopia</span>
+            </div>
+        <nav class="nav-container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="create.html">Create</a></li>
+                <li><a href="search.html">Search</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="login-section">
+        <h2>Login</h2>
+        <form action="login.php" method="POST">
+           <div class="input-group">
+            <i class = "fas fa-user"></i>
+            <input tyoe ="text" name ="fname" id="fname" placeholder="First Name" required>
+            <label for ="fname"> First Name</label>
+           </div>
+           <div class="input-group">
+            <i class=" fas fa-user"></i>
+            <input tyoe ="text" name ="lname" id="lname" placeholder="Last Name" required>
+            <label for ="fname"> Last Name</label>
+
+           </div>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <a href="aboutus.html">About Us</a>
+            <a href="contactus.html">Contact Us</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
